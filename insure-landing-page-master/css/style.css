@@ -23,7 +23,7 @@ button {
     font-size: 1em;
     font-weight: 700;
     word-spacing: 3px;
-    padding: 11px 26px;
+    padding: 8.5px 23.33px;
     border-width: 2px;
     border-style: none;
     border-color: none;
@@ -52,15 +52,24 @@ h1, h2 {
 
 h1 {
     font-size: 4.325em;
+    font-weight: 400;
 }
 
 h2 {
     font-size: 1.25em;
 }
 
+h3 {
+    font-family: Karla;
+}
+
 img {
     display: block;
     width: 100%;
+}   
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* Header */
@@ -83,7 +92,7 @@ img {
 
 .menu li a {
     color: hsl(273, 4%, 51%);
-    padding: 10px 26px;
+    padding: 8.5px 23.33px;
     word-spacing: 3px;
 }
 
@@ -91,7 +100,6 @@ img {
     border: 2px solid hsl(270, 9%, 17%);
     color: hsl(270, 9%, 17%);
     margin-left: 34px;
-    padding: 11px 26px;
     font-weight: 700;
 }
 
@@ -221,6 +229,87 @@ img {
 
 .features p {
     color: hsl(273, 4%, 51%);
+}
+
+/* Call to action */
+
+.call_to_action {
+    background-color: hsl(256, 26%, 20%);
+    justify-content: space-between;
+    align-items: center;
+    padding: 71px 0;
+    margin-bottom: 150px;
+    background-image: url("../images/bg-pattern-how-we-work-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.call_to_action h1 {
+    max-width: 475px;
+    color: hsl(0, 0%, 98%);
+    line-height: 1em;
+    font-size: 3.4em;
+    font-weight: 400;
+    margin-left: 82px;
+}
+
+.call_to_action button {
+    border: 2px solid hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 98%);
+    padding: 8.5px 16.125px;
+    margin-right: 84px;
+}
+
+.call_to_action button:hover {
+    color: hsl(256, 26%, 20%);
+    background-color: hsl(0, 0%, 98%);
+}
+
+/* Footer */
+
+.footer {
+    padding: 67px 0;
+    background-color: #fafafa;
+    background-image: url("../images/bg-pattern-footer-desktop.svg");
+    background-repeat: no-repeat;
+}
+
+.footer_top {
+    justify-content: space-between;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.footer_top .social_networks {
+    display: flex;
+}
+
+.footer_top .social_media {
+    margin-left: 17px;
+}
+
+.social_media:hover path {
+    fill: hsl(270, 9%, 17%);
+}
+
+.footer_bottom {
+    justify-content: space-between;
+}
+
+.footer_bottom div {
+    width: 200px;
+}
+
+.footer_bottom h3 {
+    color: hsl(273, 4%, 51%);
+    padding: 50px 0 27px 0;
+    text-transform: uppercase;
+}
+
+.footer_bottom li a {
+    line-height: 2em;
+    color: hsl(256, 26%, 20%);
+    font-weight: 700;
 }
 
 /* Attribution */
