@@ -1,0 +1,82 @@
+/* Reset */
+
+body, h1, h2, h3, ul, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* General Styles */
+
+.container {
+    max-width: 1440px;
+    display: flex;
+    margin: 0 auto;
+}
+
+a {
+    color: hsl(273, 4%, 51%);
+}
+
+p, li, a, button {
+    font-family: Karla;
+}
+
+h1, h2 {
+    font-family: "DM Serif Display";
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+/* Header */
+
+.header .container {
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li a {
+    color: hsl(273, 4%, 51%);
+    padding: 10px 26px;
+    word-spacing: 3px;
+}
+
+.menu li:last-child a {
+    border: 2px solid hsl(270, 9%, 17%);
+    color: hsl(270, 9%, 17%);
+    margin-left: 34px;
+    padding: 11px 26px;
+    font-weight: 700;
+}
+
+.menu li a:hover {
+    color: hsl(270, 9%, 17%);
+}
+
+.menu li:last-child a:hover {
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(270, 9%, 17%);
+}
