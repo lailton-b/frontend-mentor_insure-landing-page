@@ -176,13 +176,59 @@ img {
     bottom: -30px;
 }
 
+/* Features */
+
+.features {
+    flex-direction: column;
+    padding: 380px 0 166px 0;
+}
+
+.features h1 {
+    margin-bottom: 100px;
+    color: hsl(270, 9%, 17%);
+}
+
+.features h1::before {
+    content: "";
+    display: block;
+    position: relative;
+    width: 150px;
+    height: 1px;
+    bottom: 72px;
+    background-color: hsl(270, 9%, 17%);
+} 
+
+.features .container {
+    justify-content: space-between;
+}
+
+.features .feature {
+    max-width: 350px
+}
+
+.feature:nth-child(2) {
+    padding: 0 30px;
+}
+
+.features h2 {
+    color: hsl(270, 9%, 17%);
+    margin: 40px 0 33px 0;
+}
+
+.feature_img {
+    max-width: 86px;
+}
+
+.features p {
+    color: hsl(273, 4%, 51%);
+}
+
 /* Attribution */
 
 .attribution {
     position: absolute;
-    bottom: 0;
     height: 50px;
     width: 100%;
+    line-height: 50px;
     text-align: center;
 }
-
