@@ -1,2 +1,2 @@
 # Frontend-Mentor_Insure-landing-page
-Responsive landing page using CSS Float
+Responsive landing page using CSS Flexbox
