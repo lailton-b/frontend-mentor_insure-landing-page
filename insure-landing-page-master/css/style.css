@@ -154,6 +154,7 @@ html {
 .introduction p {
     max-width: 537px;
     margin: 34px 0;
+    line-height: 1.6em;
 }
 
 .introduction button {
@@ -236,6 +237,7 @@ html {
 
 .features p {
     color: hsl(273, 4%, 51%);
+    line-height: 1.6em;
 }
 
 /* Call to action */
