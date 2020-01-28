@@ -229,6 +229,7 @@ html {
 .features h2 {
     color: hsl(270, 9%, 17%);
     margin: 40px 0 15px 0;
+    font-weight: 400;
 }
 
 .feature_img {
