@@ -56,7 +56,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.25em;
+    font-size: 2em;
 }
 
 h3 {
@@ -228,7 +228,7 @@ html {
 
 .features h2 {
     color: hsl(270, 9%, 17%);
-    margin: 40px 0 33px 0;
+    margin: 40px 0 15px 0;
 }
 
 .feature_img {
