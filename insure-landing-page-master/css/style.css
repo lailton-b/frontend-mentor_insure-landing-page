@@ -123,6 +123,7 @@ html {
 
 .introduction {
     background-color: hsl(256, 26%, 20%);
+    position: relative;
 }
 
 .introduction .container {
@@ -159,6 +160,8 @@ html {
 
 .introduction button {
     border: 2px solid hsl(0, 0%, 98%);
+    position: relative;
+    z-index: 1;
 }
 
 .introduction button:hover {
@@ -189,7 +192,8 @@ html {
     height: 504px;
     background: url("../images/bg-pattern-intro-left-desktop.svg") no-repeat;
     position: absolute;
-    bottom: -30px;
+    top: 373px;
+    z-index: 0;
 }
 
 /* Features */
