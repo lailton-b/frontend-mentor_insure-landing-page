@@ -181,7 +181,7 @@ html {
     height: 593px;
     background: url("../images/bg-pattern-intro-right-desktop.svg") no-repeat;
     position: absolute;
-    top: 0;
+    top: -85px;
     right: 0;
 }
 
